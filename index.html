@@ -17,6 +17,39 @@
   </head>
   <body>
     <div class="container">
+      <div class="cart-success none">Added to cart successfully ✅</div>
+      <div class="overlay none">
+        <div class="modal">
+          <div class="product-details">
+            <button class="btn closeModal">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <h3 class="product--name">Lorem ipsum dolor sit amet.</h3>
+            <div class="product-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              tempore. Velit est aliquid ipsam sit nesciunt minus hic magnam
+              aspernatur nemo magni impedit repellat dolor cumque quos
+              perspiciatis, sunt eum!
+            </div>
+
+            <h3 class="price">$300</h3>
+
+            <button class="buy-now btn">Purchase</button>
+          </div>
+
+          <!-- thank you modal -->
+          <div class="thank-you none">
+            <img src="./imgages/icon-complete.svg" alt="" />
+
+            Thank you for your purchase, the shipment will be delivered in 2-3
+            days.
+
+            <button class="completed btn">Completed</button>
+          </div>
+        </div>
+      </div>
+
       <section class="p-display">
         <!-- mobile nav -->
 
@@ -33,101 +66,163 @@
 
         <div class="products">
           <div class="product-slide">
-            <div class="slide">
+            <div class="slide" data-name="product__1">
               <img src="./imgages/Untitled design (13).png" alt="" />
               <div class="productname-price">
-                <h3>
+                <h4>
                   Nike Air max 350 <br />
-                  #29
-                </h3>
+                  #13
+                </h4>
                 &nbsp; ----&nbsp;&nbsp;
 
                 <br />
                 <span class="product-price">$139.99</span>
               </div>
+
+              <!--  -->
+              <!-- <label for="product-quantity">Product-Quantity</label>
+              <input
+                type="number"
+                name="product-quantity"
+                id="product-quantity"
+                class="product-quantity"
+              /> -->
+              <!--  -->
               <div class="more-addCart">
-                <button class="More-details btn">More details</button>
+                <button class="More-details btn">Buy now</button>
 
                 <button class="addCart btn">Add to Cart</button>
               </div>
             </div>
-            <div class="slide">
+
+            <!--  -->
+            <div class="slide" data-name="product__2">
               <img src="./imgages/Untitled design (14).png" alt="" />
               <div class="productname-price">
-                <h3>
-                  Nike Air max 350 <br />
-                  #29
-                </h3>
+                <h4>
+                  Beats by Dre Headset 33.2Gz <br />
+                  #14
+                </h4>
                 &nbsp; ----&nbsp;&nbsp;
 
                 <br />
-                <span class="product-price">$139.99</span>
+                <span class="product-price">$399.99</span>
+              </div>
+
+              <div class="more-addCart">
+                <button class="More-details btn">Buy now</button>
+
+                <button class="addCart btn">Add to Cart</button>
               </div>
             </div>
 
-            <div class="slide">
+            <!--  -->
+            <div class="slide" data-name="product__3">
               <img src="./imgages/Untitled design (18).png" alt="" />
               <div class="productname-price">
-                <h3>
-                  Nike Air max 350 <br />
-                  #29
-                </h3>
+                <h4>
+                  Sony Noise <br />
+                  Cancelling Headphones <br />
+                  #18
+                </h4>
                 &nbsp; ----&nbsp;&nbsp;
 
                 <br />
-                <span class="product-price">$139.99</span>
+                <span class="product-price">$159.99</span>
+              </div>
+
+              <div class="more-addCart">
+                <button class="More-details btn">Buy now</button>
+
+                <button class="addCart btn">Add to Cart</button>
               </div>
             </div>
-            <div class="slide">
+
+            <!-- 
+
+              
+             -->
+            <div class="slide" data-name="product__4">
               <img src="./imgages/Untitled design (20).png" alt="" />
               <div class="productname-price">
-                <h3>
-                  Nike Air max 350 <br />
-                  #29
-                </h3>
+                <h4>
+                  CHCH Camera <br />
+                  Natural lenses and focus <br />
+                  #20
+                </h4>
                 &nbsp; ----&nbsp;&nbsp;
 
                 <br />
-                <span class="product-price">$139.99</span>
+                <span class="product-price">$339.99</span>
+              </div>
+              <div class="more-addCart">
+                <button class="More-details btn">Buy now</button>
+
+                <button class="addCart btn">Add to Cart</button>
               </div>
             </div>
-            <div class="slide">
+
+            <!-- 
+
+             -->
+            <div class="slide" data-name="product__5">
               <img src="./imgages/Untitled design (21).png" alt="" />
               <div class="productname-price">
-                <h3>
-                  Nike Air max 350 <br />
-                  #29
-                </h3>
+                <h4>
+                  Sport trainers <br />
+                  running shoes <br />
+                  #21
+                </h4>
                 &nbsp; ----&nbsp;&nbsp;
 
                 <br />
-                <span class="product-price">$139.99</span>
+                <span class="product-price">$89.99</span>
+              </div>
+
+              <div class="more-addCart">
+                <button class="More-details btn">Buy now</button>
+
+                <button class="addCart btn">Add to Cart</button>
               </div>
             </div>
-            <div class="slide">
+            <!-- 
+
+             -->
+            <div class="slide" data-name="product__6">
               <img src="./imgages/Untitled design (22).png" alt="" />
               <div class="productname-price">
-                <h3>
-                  Nike Air max 350 <br />
-                  #29
-                </h3>
+                <h4>
+                  Diesel Low-top <br />
+                  Leather and Suade Mens Shoes <br />
+                  #22
+                </h4>
                 &nbsp; ----&nbsp;&nbsp;
 
                 <br />
-                <span class="product-price">$139.99</span>
+                <span class="product-price">$149.99</span>
+              </div>
+              <div class="more-addCart">
+                <button class="More-details btn">Buy now</button>
+
+                <button class="addCart btn">Add to Cart</button>
               </div>
             </div>
-            <div class="slide">
+            <div class="slide" data-name="product__7">
               <img src="./imgages/Untitled design (23).png" alt="" />
               <div class="productname-price">
                 <h3>
-                  Nike Air max 350 <br />
-                  #29
+                  Guerella Hiking shoes <br />
+                  #23
                 </h3>
                 &nbsp; ----&nbsp;&nbsp;
 
                 <br />
-                <span class="product-price">$139.99</span>
+                <span class="product-price">$79.99</span>
+              </div>
+              <div class="more-addCart">
+                <button class="More-details btn">Buy now</button>
+
+                <button class="addCart btn">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -161,63 +256,36 @@
           <button class="cart-list-btn btn">
             Cart lists <i class="fa-solid fa-caret-down"></i>
           </button>
-          <button class="cart-quantity btn">
-            Cart Quantity <span class="quantity">3</span>
+          <button class="cart-quantity none btn">
+            Cart Quantity <span class="quantity c-quantity">3</span>
           </button>
         </div>
         <!-- cart lists -->
         <div class="cart-list">
           <h3>Cart list</h3>
           <div class="cart-lists">
+            <!-- <div class="append"></div> -->
             <div class="p-list">
               <span class="p-name"
-                >sneakssdhjsdsdhksdhkjjjjjjjjjjjjjjjjjjjjjjjjjjjsjkddddddddddddddddddddddddddddddddddddddsdkjjksdjk</span
+                >sneakssdhjsdsdhksdhkjjjjjjjjjjjjjjjjjjjjjjjjjjjsjkddddddddddddddddddddddddddddddddddddddsdkjjksdjk
+                <span class="quantity p-quantity">3</span></span
+              >
+              <button class="x"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="p-list">
+              <span class="p-name"
+                >sneakssdhjsdsdhksdhkjjjjjjjjjjjjjjjjjjjjjjjjjjjsdkjjksdjk
+                <span class="quantity p-quantity">3</span></span
               >
               <span class="x"><i class="fa-solid fa-xmark"></i></span>
             </div>
             <div class="p-list">
               <span class="p-name"
-                >sneakssdhjsdsdhksdhkjjjjjjjjjjjjjjjjjjjjjjjjjjjsdkjjksdjk</span
+                >sneakssdhjsdsdhksdhkjjjjjjjjjjjjjjjjjjjjjjjjjjjsdkjjksdjk
+                <span class="quantity p-quantity">3</span></span
               >
               <span class="x"><i class="fa-solid fa-xmark"></i></span>
             </div>
-            <div class="p-list">
-              <span class="p-name"
-                >sneakssdhjsdsdhksdhkjjjjjjjjjjjjjjjjjjjjjjjjjjjsdkjjksdjk</span
-              >
-              <span class="x"><i class="fa-solid fa-xmark"></i></span>
-            </div>
-
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
 
           <!-- 
