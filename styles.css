@@ -188,7 +188,7 @@ nav {
 }
 .cart-lists {
   width: 90%;
-  height: 300px;
+  height: 250px;
   border: 1px solid red;
   overflow-y: scroll;
   border-radius: 10px;
@@ -246,7 +246,7 @@ nav {
 }
 .clear-cart {
   align-self: flex-end;
-  margin: 1.1rem;
+  margin: 1rem;
 }
 .arrow {
   position: absolute;
@@ -484,7 +484,7 @@ nav {
   }
   .cart-lists {
     width: 90%;
-    height: 300px;
+    height: 250px;
     border: 1px solid red;
     overflow-y: scroll;
     border-radius: 10px;
