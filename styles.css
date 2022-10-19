@@ -527,6 +527,7 @@ nav {
     border: 1px solid blue;
     margin: auto auto;
     position: absolute;
+    background-color: crimson;
     top: 10%;
     left: 5%;
   }
