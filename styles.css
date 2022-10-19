@@ -436,6 +436,7 @@ nav {
     flex-direction: column;
     transform: translateX(100%);
     transition: all 1s;
+    overflow: scroll;
 
     /* display: none; */
   }
