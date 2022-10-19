@@ -25,13 +25,14 @@ body {
 .overlay {
   width: 100%;
   height: 100vh;
-  background-color: rgba(255, 255, 255, 0.187);
+  background-color: rgba(255, 255, 255, 0.599);
   backdrop-filter: blur(10px);
+  /* filter: blur(10px); */
   position: absolute;
   z-index: 10;
 }
 .p-display {
-  width: 70%;
+  width: 65%;
   /* padding: 0.4rem; */
   word-wrap: break-word;
   /* border: 2px solid blue; */
@@ -45,7 +46,7 @@ body {
 
   color: white;
   background-color: rgba(255, 255, 255, 0.187);
-  backdrop-filter: blur(4px);
+  /* backdrop-filter: blur(4px); */
   height: 100%;
   position: relative;
 }
@@ -87,7 +88,7 @@ body {
 
 /*  */
 .slide img {
-  width: 60%;
+  width: 55%;
   align-self: center;
   background-color: rgba(220, 20, 60, 0.636);
   border-radius: 10px;
@@ -103,10 +104,11 @@ body {
 .more-addCart {
   width: 60%;
   /* align-self: flex-start; */
-  padding: 0.5rem;
+  padding: 0.1rem;
+  /* border: 1px solid white; */
 }
 .more-addCart button {
-  margin: 0.4rem;
+  margin: 0.1rem 0.4rem;
 }
 .More-details {
   background-color: rgba(74, 205, 187, 0.985);
@@ -114,7 +116,7 @@ body {
 
 /* nav-cart */
 .nav-cart {
-  width: 300px;
+  width: 25%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.187);
   backdrop-filter: blur(3px);
@@ -374,13 +376,13 @@ nav {
     align-self: center;
     padding: 1rem 0.5rem;
     color: white;
-    background-color: rgba(255, 255, 255, 0.187);
-    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.233);
+    /* backdrop-filter: blur(4px); */
     height: 100%;
   }
   .product-slide {
     width: 90%;
-    height: 95%;
+    height: 100%;
     margin: auto;
     position: relative;
     overflow-x: hidden;
@@ -520,10 +522,25 @@ nav {
     padding: 0.1rem 0.2rem;
     border-radius: 50px;
   }
-
+  .arrow {
+    position: absolute;
+    top: 3rem;
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+  }
+  .right {
+    right: 2%;
+  }
+  .left {
+    left: 2%;
+  }
+  .arrow:hover {
+    background-color: transparent;
+  }
   .modal {
     width: 82%;
-    height: 50%;
+    height: 60%;
     border: 1px solid blue;
     margin: auto auto;
     position: absolute;
