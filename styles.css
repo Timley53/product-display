@@ -126,6 +126,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.nav-cart:hover {
+  overflow-y: scroll;
+}
 
 .nav-mobile {
   display: none;
@@ -188,7 +191,7 @@ nav {
 }
 .cart-lists {
   width: 90%;
-  height: 250px;
+  height: 200px;
   border: 1px solid white;
   overflow-y: scroll;
   border-radius: 10px;
